@@ -11,6 +11,10 @@ header, main {
     background-color: white;
 }
 
+header {
+    padding: 10px 0 0 15px;
+}
+
  #title {
      display: inline;
      font-size: 45px;
