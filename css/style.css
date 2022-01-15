@@ -21,6 +21,7 @@ header, main {
 
 main {
     width: 1000px;
+    height: 600px;
     margin-left: 200px;
     margin-top: 50px;
     border-radius: 5px;
@@ -102,4 +103,12 @@ span {
 
 .mobile {
     background-color: orange;
+}
+
+.sales {
+    background-color: rgb(142, 179, 12);
+}
+
+.website {
+    background-color: purple;
 }
