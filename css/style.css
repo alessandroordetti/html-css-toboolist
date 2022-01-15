@@ -78,7 +78,7 @@ ul {
 }
 
 /* nessuna classe perché le immagini avranno tutte una width uguale */
-img {
+.img-done, .img-wrong {
     width: 15px;
 }
 
