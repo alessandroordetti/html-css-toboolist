@@ -1,6 +1,7 @@
 * {       
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
 }
 
 body {
@@ -12,7 +13,7 @@ header, main {
 }
 
 header {
-    padding: 10px 0 0 15px;
+    padding: 10px 15px;
 }
 
  #title {
@@ -31,6 +32,7 @@ main {
     border-radius: 5px;
 }
 
+/* Se inline-block non viene dato ad entrambi gli elementi da mettere sulla stessa riga sorge un problema */
 .common-properties {
     text-align: center;
     border-radius: 5px;
@@ -40,6 +42,7 @@ main {
     display: inline-block;
     padding: 5px;
     border: 1px lightgrey;
+    /* Border-style è necessario altrimenti i margini dell'elemento saranno di default trasparenti */
     border-style: groove;
 }
 
@@ -51,6 +54,7 @@ main {
 
 #add-section {
     background-color: white;
+    color: lightgray;
 }
 
 main>header {
@@ -79,7 +83,6 @@ li {
 
 ul {
     list-style: none;
-    padding: 0;
 }
 
 /* nessuna classe perché le immagini avranno tutte una width uguale */
